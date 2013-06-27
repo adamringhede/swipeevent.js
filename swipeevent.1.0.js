@@ -129,7 +129,7 @@ var SWIPE = function(a_ele) {
         d_ele._sensitivity = sens;
         return d_ele;
     };
-    /** Set the function that should be called when the user is swipeing.
+    /** Set a function that should be called when the user is swipeing.
      */
     d_ele.onSwipeing = function(f) {
         d_ele._onswipeing[d_ele._onswipeing.length] = f;
