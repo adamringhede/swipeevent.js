@@ -1,7 +1,7 @@
 swipeevent.js
 =============
 
-Listen to swipe events on DOM objects.
+Listen to swipe events on DOM objects. This works using either touch or a mouse pointer. 
 
 #### Adding the swipe functionality
 Using the SWIPE function, new mathods and attributes will be added to this element for easy access. 
@@ -32,3 +32,10 @@ SWIPE("someElementId")
   .dispatchOnRelease(false)
   .setSensitivity(50);
 ```
+
+#### setSensitivity(integer)
+The sensitivity is the distance the swipe needs to be displaced before emits. It is best to have a higher value
+to prevent accidental swipes. 
+
+#### dispatchOnRelease(bool)
+The event can be triggered either on the mouseup/touchup event, or as soon as the swipe happens.
