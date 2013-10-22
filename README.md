@@ -38,4 +38,4 @@ The sensitivity is the distance the swipe needs to be displaced before emits. It
 to prevent accidental swipes. 
 
 #### dispatchOnRelease(bool)
-The event can be triggered either on the mouseup/touchup event, or as soon as the swipe happens.
+The event can be triggered either on the mouseup/touchup event (true), or as soon as the swipe happens (false).
